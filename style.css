@@ -12,7 +12,6 @@ body {
   padding:0;
   background-color: rgb(247, 244, 240);
 }
-
 .footer {
 background-color: #FFE066;
   margin-top:auto;
@@ -150,7 +149,6 @@ background-color: #FFE066;
   font-size: 16px;
   transform: .3s ease;
 }
-
 .input {
   width: 100%;
   padding: 10px;
