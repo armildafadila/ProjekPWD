@@ -150,3 +150,16 @@ background-color: #FFE066;
   font-size: 16px;
   transform: .3s ease;
 }
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.juduldaftar {
+  font-weight: bold;
+  color: #4f7726;
+
+}
