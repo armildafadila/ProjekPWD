@@ -86,7 +86,7 @@
         <input required placeholder="Konfirmasi Password" type="password"  class="form-control" name="confirm_pw">
     </label>
     <br>
-    <button class="submit">Tambahkan pengguna baru</button>
+    <button type="submit" class="submit">Tambahkan pengguna baru</button>
     <p class="signin">Sudah mempunyai akun ? <a href="masuk.php">Masuk</a> </p>
 </form>
 </div>

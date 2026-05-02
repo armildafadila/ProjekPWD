@@ -7,7 +7,8 @@ $password = $_POST['password'];
 $confirm = $_POST['confirm_pw'];
 
 if ($password != $confirm) {
-    echo "Konfirmasi Password Berbeda, Silahkan ulangi lagi! <a href='daftar.php></a>";
+    echo "Konfirmasi Password Berbeda, Silahkan ulangi lagi!
+     <a href='daftar.php'></a>";
     exit;
 }
 $query= mysqli_query($konek, "INSERT INTO users (nama, email, password) VALUES ('$nama', '$email', '$password')") or die(mysqli_error($konek));
