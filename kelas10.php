@@ -2,7 +2,6 @@
 <?php
 include 'koneksi.php';
 
-$cari = isset($_GET['cari']) ? $_GET['cari'] : '';
 $kelas10 = mysqli_query($koneksi, "SELECT * FROM materi WHERE kelas='10'");
 
 ?>
@@ -71,7 +70,7 @@ $kelas10 = mysqli_query($koneksi, "SELECT * FROM materi WHERE kelas='10'");
   
     <nav class="navbar navbar-expand-lg navbar-custom">
   <div class="container ">
-     <a class="navbar-brand d-flex align-items-center" href="#">
+     <a class="navbar-brand d-flex align-items-center">
       <a href="index.html">
       <img src="foto/baru.png" alt="Logo" width="90" height="auto" class="d-inline-block align-text-top"></a>
       <span class="text-judul">MathPartner</span>
